@@ -1,0 +1,35 @@
+
+
+.Background{
+background-color: black;
+padding: 5px 5px 5px 5px;
+}
+
+h1{
+    color:white ;
+    font-size: medium;
+    font-family: 'Inconsolata', monospace;
+}
+
+p{
+    color:white ;
+    font-size: medium;
+    font-family: 'Inconsolata', monospace;
+}
+
+a{
+    color: antiquewhite;
+}
+
+textarea {
+    position: relative;
+    top: 6px;
+    font-size: medium;
+    outline: none;
+    font-family: 'Inconsolata', monospace;
+    width: 70%;
+    color: white;
+    border-color: black;
+    background-color: black;
+    resize: none;
+  }
