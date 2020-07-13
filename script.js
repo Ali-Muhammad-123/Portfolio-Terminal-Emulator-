@@ -26,7 +26,7 @@ function decidepath(){
     }
     case("..") : {
         console.log(window.location.href);
-        window.location.href = "./MainTerminal.html";
+        window.location.href = "https://ali-muhammad-123.github.io/Portfolio-Terminal-Emulator-/";
         break;
     } 
 }}
