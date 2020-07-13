@@ -48,7 +48,7 @@ function decidepath(){
     }
     case("Aboutme.info") : {
 
-    var p2 = "<p> Software developer with a passion for innovation. <br>Currently studying BS(CS) is szabist. Ready to learn new tech stacks and new technologies . Motivated to explore different branches computer science has to offer.<br>  This portfolio was made with pure html , css and js with some jquery .  </p>";
+    var p2 = "<p> Software developer with a passion for innovation. <br>Currently studying BS(CS) at szabist. Ready to learn new tech stacks and new technologies . Motivated to explore different branches computer science has to offer.<br>  This portfolio was made with pure html , css and js with some jquery .  </p>";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
         break;
     }
