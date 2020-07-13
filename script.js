@@ -1,7 +1,7 @@
 let command;
 
 function decidepath(){
-    if(command.toLowerCase() == "dir" && window.location.href== "file:///C:/Users/hp/Desktop/Portfolio/MainTerminal.html"){
+    if(command.toLowerCase() == "dir" && window.location.href== "file:///C:/Users/hp/Desktop/Portfolio/index.html"){
         var p2 = "<p>07/01/2020  11:27 PM              Resume.doc<br>07/01/2020  11:27 PM              Aboutme.info<br>01/18/2020  11:34 AM                   links.link<br>06/04/2020  01:09 AM                   Contact.info<br>01/17/2020  06:17 AM        &ltDIR&gt           Projects";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
     }
