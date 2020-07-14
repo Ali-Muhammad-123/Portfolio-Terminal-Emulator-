@@ -20,7 +20,7 @@ function decidepath(){
         let dir =   command.substring(2).trim();
         console.log(dir);
         switch(dir){
-    case("Projects") : {
+    case("projects") : {
         window.location.href = "./ProjectsDIR.html";
         break;
     }
@@ -36,7 +36,7 @@ function decidepath(){
         let dir =   command.substring(4).trim();
         console.log(dir);
         switch(dir){
-    case("Resume.doc") : {
+    case("resume.doc") : {
 
         var embed = document.createElement('embed');
         embed.setAttribute('width', 800 );
@@ -46,7 +46,7 @@ function decidepath(){
         break;
 
     }
-    case("Aboutme.info") : {
+    case("aboutme.info") : {
 
     var p2 = "<p> Software developer with a passion for innovation. <br>Currently studying BS(CS) at szabist. Ready to learn new tech stacks and new technologies . Motivated to explore different branches computer science has to offer.<br>  This portfolio was made with pure html , css and js with some jquery .  </p>";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
@@ -58,7 +58,7 @@ function decidepath(){
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
         break;
     }
-    case("Contact.info") : {
+    case("contact.info") : {
 
         var p2 = "<p>Email : <a href='alim.9171@gmail.com' >        alim.9171@gmail.com </a>  <br>Linked in : <a href='https://www.linkedin.com/in/ali-muhammad-9a16905a/' >        https://www.linkedin.com/in/ali-muhammad-9a16905a/ </a> </p>";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
@@ -66,7 +66,7 @@ function decidepath(){
 
     }
 
-    case("PythonDesktopOrganiser.py") : {
+    case("pythondesktoporganiser.py") : {
 
         var p2 = "<p>Code : <a href='https://github.com/Ali-Muhammad-123/Python_Desktop_Organiser' >        Python Desktop Organizer </a>  <br> Runs in the background and redirects every file placed on the desktop to the appropriate directory Specify the directory to the path of your desktop in the code Create a folder on your desktop with the name 'PYTHON ORANISATION FOLDER' and create three sub-filders in it with the names 'Documents' , 'Images' , 'Misc' and 'Compressed files' </p>";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
@@ -74,7 +74,7 @@ function decidepath(){
 
     }
     
-    case("BMICalculator.java") : {
+    case("bmicalculator.java") : {
 
         var p2 = "<p>Code : <a href='https://github.com/Ali-Muhammad-123/BMI_CALCULATOR' >        BMICalculator.java </a>  </p>";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
@@ -82,7 +82,7 @@ function decidepath(){
 
     }
 
-    case("UniversityManagementSystem.java") : {
+    case("universitymanagementsystem.java") : {
 
         var p2 = "<p>Code : <a href='https://github.com/Ali-Muhammad-123/OOP-PROJECT' >        University Management System </a>  <br></p>";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
@@ -94,7 +94,7 @@ function decidepath(){
         break;
 
     }
-    case("SchoolResultManagementSystem.c") : {
+    case("schoolresultmanagementsystem.c") : {
 
         var p2 = "<p>Code : <a href='https://github.com/Ali-Muhammad-123/First_Semester_Project' >        School Result Management System </a>  <br></p>";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
@@ -117,7 +117,7 @@ function decidepath(){
 $("#command").keypress(function(event) { 
     if (event.keyCode === 13) { 
         command = (document.getElementById('command').value.trim());
-        console.log(command);
+        command = command.toLowerCase();
          decidepath();
          document.getElementById('command').value = "";
 
