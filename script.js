@@ -6,7 +6,7 @@ function decidepath(){
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
     }
     else if(command.toLowerCase() == "dir" && window.location.href== "https://ali-muhammad-123.github.io/Portfolio-Terminal-Emulator-/ProjectsDIR.html"){
-        var p2 = "<p>01/18/2020  11:34 AM                   ..<br>07/01/2020  11:27 PM              PythonDesktopOrganiser.py<br>07/01/2020  11:27 PM              BMICalculator.java<br>06/04/2020  01:09 AM                   UniversityManagementSystem.java<br>01/17/2020  06:17 AM                   CourseManagementSystem.c";
+        var p2 = "<p>01/18/2020  11:34 AM                   ..<br>07/01/2020  11:27 PM              PythonDesktopOrganiser.py<br>07/01/2020  11:27 PM              BMICalculator.java<br>06/04/2020  01:09 AM                   UniversityManagementSystem.java<br>01/17/2020  06:17 AM                   SchoolResultManagementSystem.c";
     document.getElementById("p3").insertAdjacentHTML('afterbegin', p2);
     }
 
